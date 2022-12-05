@@ -17,6 +17,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
 }
+.navbarlinks a:hover{
+    color: coral;
+    cursor: pointer;
+}
 .banner{
     width: 100%;
     background-color: #202020;
@@ -27,6 +31,10 @@
     margin: 0px 0px 0px 30px;
     font-size: 45px;
     color: aliceblue;
+}
+.logo:hover{
+    color: coral;
+    cursor: pointer;
 }
 .bannertext{
     top: 350px;
@@ -118,4 +126,13 @@ h2{
 }
 .form1{
     margin: 20px 0px;
+}
+.i4:hover,.i1:hover,.i3:hover,.i2:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.p11:hover,.p12:hover,.p13:hover,.p14:hover{
+    color: coral;
+    cursor: pointer;
+
 }
